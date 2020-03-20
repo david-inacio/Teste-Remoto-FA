@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoClientes.Web", "GestaoClientes.Web\GestaoClientes.Web.csproj", "{69E92111-BB8B-474A-BDB6-4D2D66379949}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C080C423-906A-4362-BAC7-6B29D64F26C6} = {C080C423-906A-4362-BAC7-6B29D64F26C6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoClientes.Api", "GestaoClientes.Api\GestaoClientes.Api.csproj", "{C080C423-906A-4362-BAC7-6B29D64F26C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69E92111-BB8B-474A-BDB6-4D2D66379949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E92111-BB8B-474A-BDB6-4D2D66379949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E92111-BB8B-474A-BDB6-4D2D66379949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E92111-BB8B-474A-BDB6-4D2D66379949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C080C423-906A-4362-BAC7-6B29D64F26C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C080C423-906A-4362-BAC7-6B29D64F26C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C080C423-906A-4362-BAC7-6B29D64F26C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C080C423-906A-4362-BAC7-6B29D64F26C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC18F2F0-C723-486D-8773-BD981913E3C6}
+	EndGlobalSection
+EndGlobal
